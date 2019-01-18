@@ -1,0 +1,80 @@
+body{
+    background: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #000000;
+    min-width: 320px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+
+}
+
+img{
+    size: auto;
+}
+
+.navbar-dark{
+    background-color: black;
+    align-content: center;
+
+}
+
+.carousel{
+
+}
+
+.carousel-item{
+    alignment: center;
+}
+.menu-top .navbar{
+    margin-top: 20px;
+    margin-bottom: 0;
+    background: #000;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+
+.menu-carousel-class .carousel-item{
+    min-height: 600px;
+}
+
+.menu-carousel-class .bgslide{
+    position: absolute;
+    background-position: center;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.carousel.fade{
+    opacity: 1;
+}
+
+.carousel.fade .carousel-item{
+    opacity: 0;
+    transition: opacity .5s;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+
+}
+.carousel.fade .carousel-item.active{
+    opacity: 1;
+    position: relative;
+}
+
+.menu-carousel-class .container{
+    position: relative;
+
+}
+.carousel-inner{
+    width:100%;
+    max-height: 400px !important;
+}
