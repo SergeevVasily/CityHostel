@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>City Hostel</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700, 300" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,400&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
@@ -26,13 +28,16 @@
                                 <a class="nav-link" href="#"><span class="sr-only">(current)</span>Welcome to City Hostel</a>
                             </li>
                                 <li class="nav-item">
-                                        <a class="nav-link" href="#">Amenities</a>
+                                        <a class="nav-link" href="#">About</a>
                                  </li>
                                  <li class="nav-item">
                                         <a class="nav-link" href="#">Rooms and Rates</a>
                                  </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Getting Here</a>
+                            <a class="nav-link" href="#">Location</a>
+                        </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Work Trade</a>
                             </li>
                                 <li class="nav-item">
                                         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">InProgress</a>
@@ -72,8 +77,22 @@
 </section>
 
 
-            <section class="rooms">
-                <h2>Rooms and Rates!</h2>
+            <section class="about container"> <!--about-->
+                    <h1>About</h1>
+                <div class="home"><i class="fas fa-home"></i></div>
+                <h3>Welcome to City Hostel <br>is located in the historic Lorraine Hotel building in the Belltown neighborhood of Seattle.
+                    Part hostel and part art gallery, each room in
+                    City Hostel has been turned into a canvas by local artists like Hyperreal, Weirdo, and Anika Wilson.</h3>
+            </section>
+            <section class="location"> <!--location -->
+
+            </section>
+
+
+
+
+            <section class="rooms"><!--rooms-->
+                <h2>Rooms <i class="fas fa-bed"></i>Rates </h2>
                 <div class="container">
                     <div class="col-md-12 form-inline ">
                         <div class="col-md-4 ">
@@ -81,12 +100,13 @@
                                 <div class="room-content">
                                 <div class="room-img">
                                     <a href=""><img src="images/2857776.jpg" alt=""></a>
-                                </div>
                                     <h4 class="room-title">4 Bed Shared Room</h4>
+                                </div>
+
                                     <p class="room-description"> Share your travel stories while stying in for 4 bedroom dormotory!</p>
                                         <p class="price"> $35 + tax</p> shared washroom<br>
                                         <p class="price">  $39 + tax </p>ensuite washroom
-                                    <button class="btn btn-outline-success my-2 my-sm-0 btn-room" type="submit">Book Now!</button>
+                                    <button class="btn btn-dark my-2 my-sm-0 btn-room" type="submit">Reserve</button>
                                 </div>
                             </div>
                         </div>
@@ -94,12 +114,13 @@
                             <div class="room">
                                 <div class="room-content">
                                 <div class="room-img">
-                                    <a href=""><img src="images/2857776.jpg" alt=""></a>
+                                    <a href=""><img src="images/Hotel-Hotel-Seattle-002.jpg" alt=""></a>
+                                    <h4 class="room-title">6 Bed Shared Room</h4>
                                 </div>
-                                <h4 class="room-title">6 Bed Shared Room</h4>
+
                                 <p class="room-description"> Share your travel stories while stying in for 4 bedroom dormotory!</p>
                                 <p class="price">$33 + tax</p>
-                                <button class="btn btn-outline-success my-2 my-sm-0 btn-room" type="submit">Book Now!</button>
+                                <button class="btn btn-dark my-2 my-sm-0 btn-room" type="submit">Reserve</button>
                                 </div>
                             </div>
                         </div>
@@ -108,14 +129,15 @@
                                 <div class="room-content">
                                 <div class="room-img">
                                     <a href=""><img src="images/2857776.jpg" alt=""></a>
+                                    <h4 class="room-title">Private Rooms</h4>
                                 </div>
-                                <h4 class="room-title">Private Rooms</h4>
+
                                 <p class="room-description"> Share your travel stories while stying in for 4 bedroom dormotory!</p>
                                 <p class="price"> $79 + tax</p>shared washroom <br>
                                     <p class="price">$99 + tax </p>ensuite washroom<br>
                                     *queen size beds /  1 or 2 guests max <br>
                                     *2 towels included in every private room
-                                <button class="btn btn-outline-success my-2 my-sm-0 btn-room" type="submit">Book Now!</button>
+                                <button class="btn btn-dark my-2 my-sm-0 btn-room" type="submit">Reserve</button>
                                 </div>
                             </div>
                         </div>
@@ -134,7 +156,7 @@
             </section>
 
 
-            <section class="footer">
+            <section class="footer"> <!--foooter-->
                 <p>
                     2327 2ND AVE .
                     SEATTLE WA 98121

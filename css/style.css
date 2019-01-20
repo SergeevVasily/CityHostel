@@ -76,13 +76,15 @@ body{
 
 }
 .room{
-    border: 1px solid black;
+
+    box-shadow: black;
+
 
 }
-.rooms img{
-    height: 250px;
-    width: 250px;
+.room img{
+    width: 300px;
     padding: 10px;
+
 }
 
 .rooms p{
@@ -95,9 +97,10 @@ body{
 }
 
 h2{
-    font-family: Monserrat, sans-serif;
+    font-family: 'Playfair Display SC', serif;
     font-size: 30px;
     text-align: center;
+    font-weight: 700;
     text-transform: uppercase;
     color: #000;
     margin-bottom: 20px;
@@ -108,7 +111,6 @@ h2{
     padding: 50px 0;
     border-top: 1px solid white;
     margin-bottom: 50px;
-
 
 }
 
@@ -146,4 +148,30 @@ btn-room{
     color: #fff;
     margin-bottom: 15px;
     background: black;
+}
+
+.about p{
+    color: #fff;
+}
+
+.fa-bed{
+    font-size: 35px;
+    color: red;
+    margin-right: 10px;
+}
+
+.about h1{
+    color: white;
+}
+.about h3{
+    color: white;
+}
+
+.about{
+   padding: 10px;
+}
+.home{
+    color: red;
+    text-align: center;
+    font-size: 45px;
 }
