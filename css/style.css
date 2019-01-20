@@ -88,7 +88,6 @@ body{
 }
 
 .rooms p{
-    color: #fff;
 }
 
 .rooms h4{
@@ -204,8 +203,30 @@ btn-room{
 .work-trade{
     background: #fff;
 
+
 }
 .contact{
     background: black;
     color: white;
+}
+
+.price-desc{
+    font-size: 21px;
+    font-weight: bold;
+    color: black;
+}
+
+.location p{
+    color: white;
+}
+
+.map{
+    margin: 35px;
+    max-width: 200px;
+
+
+}
+
+.content-wt{
+    padding: 25px;
 }
