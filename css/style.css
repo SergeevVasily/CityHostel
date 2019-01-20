@@ -1,5 +1,5 @@
 body{
-    background: #000;
+    background: black;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: #000000;
@@ -9,9 +9,7 @@ body{
     width: 100px;
     height: 100px;
 }
-img{
-    size: auto;
-}
+
 
 .navbar-dark{
     background-color: black;
@@ -28,6 +26,10 @@ img{
 
 .menu-carousel-class{
     margin-bottom: 70px;
+}
+
+.menu-carousel-class .container{
+    max-width: 750px;
 }
 
 .menu-carousel-class .carousel-item{
@@ -65,18 +67,18 @@ img{
 .menu-carousel-class .container{
     position: relative;
 }
-.carousel-inner{
-    width:100%;
-    max-height: 800px !important;
-}
+
 .tales {
     width: 100%;
 }
 
 .item{
-    text-align:center;
-}
 
+}
+.room{
+    border: 1px solid black;
+
+}
 .rooms img{
     height: 250px;
     width: 250px;
@@ -89,18 +91,33 @@ img{
 
 .rooms h4{
     font-family: 'Roboto-Condensed', sans-serif;
-    color: #fff;
+    color: #000000
 }
 
 h2{
-    font-family: 'Roboto-Condensed', sans-serif;
-    color: #fff;
+    font-family: Monserrat, sans-serif;
+    font-size: 30px;
     text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 20px;
 }
 
 .rooms{
-    background: #000;
-    
+    background: #fff;
+    padding: 50px 0;
+    border-top: 1px solid white;
+    margin-bottom: 50px;
+
+
+}
+
+.room-content{
+    padding: 20px 20px;
+    align-content: center;
+}
+.room-content:hover{
+    box-shadow: white;
 }
 
 .welcome h1{
@@ -110,4 +127,23 @@ h2{
 }
 btn-room{
     position: center;
+}
+
+
+.tales {
+    width: 100%;
+}
+.carousel-inner{
+    width:100%;
+    max-height: 400px !important;
+}
+.form-inline{
+    align-items: unset;
+}
+.price{
+    font-size: 21px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 15px;
+    background: black;
 }
