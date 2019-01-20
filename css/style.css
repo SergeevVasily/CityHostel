@@ -6,8 +6,8 @@ body{
     min-width: 320px;
 }
 .logo{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
 }
 
 
@@ -93,7 +93,8 @@ body{
 
 .rooms h4{
     font-family: 'Roboto-Condensed', sans-serif;
-    color: #000000
+    color: #000;
+    font-weight: 700;
 }
 
 h2{
@@ -152,6 +153,7 @@ btn-room{
 
 .about p{
     color: #fff;
+    text-align: center;
 }
 
 .fa-bed{
@@ -170,8 +172,40 @@ btn-room{
 .about{
    padding: 10px;
 }
-.home{
+
+
+.fa-map-marked-alt,
+.fa-handshake,
+.fa-home{
     color: red;
+    font-size: 42px;
     text-align: center;
-    font-size: 45px;
+    position: relative;
+
+}
+
+.about h2{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.location{
+    background: black;
+
+}
+
+.location h2{
+    color: #fff;
+}
+.work-trade{
+    background: #fff;
+
+}
+.contact{
+    background: black;
+    color: white;
 }
