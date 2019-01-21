@@ -197,6 +197,7 @@ btn-room{
 
 .location{
     background: black;
+    padding: 50px 0;
 
 }
 
@@ -205,6 +206,7 @@ btn-room{
 }
 .work-trade{
     background: #fff;
+    padding: 25px 0;
 
 
 }
@@ -233,6 +235,9 @@ btn-room{
 .content-wt{
     padding: 25px;
 }
+.content-wt > ul > li{
+    list-style: none;
+}
 
 .nav-link:hover{
     color: red;
@@ -243,11 +248,20 @@ btn-room{
 
 .amenities{
  background: black;
+    padding: 25px 0 ;
+
 }
 
 .amenities > ul > li{
     font-family: 'Roboto-Condensed', sans-serif;
     color: #fff;
-    font-weight: 700;
     padding: 20px 10px;
+    list-style: none;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.fa-broom,
+.fa-concierge-bell{
+    font-size: 35px;
 }
