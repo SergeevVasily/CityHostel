@@ -171,8 +171,11 @@ btn-room{
 .about{
    padding: 10px;
 }
-
-
+.fa-film,
+.fa-unlock-alt,
+.fa-wifi,
+.fa-coffee,
+.fa-plus-circle,
 .fa-map-marked-alt,
 .fa-handshake,
 .fa-home{
@@ -229,4 +232,22 @@ btn-room{
 
 .content-wt{
     padding: 25px;
+}
+
+.nav-link:hover{
+    color: red;
+}
+.menu-top .navbar-collapse > li > a:hover{
+    color: red;
+}
+
+.amenities{
+ background: black;
+}
+
+.amenities > ul > li{
+    font-family: 'Roboto-Condensed', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    padding: 20px 10px;
 }
