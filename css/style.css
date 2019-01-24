@@ -159,7 +159,7 @@ btn-room{
 }
 
 .about{
-    margin-top: 10px;
+    margin-top: 100px;
 }
 .about p{
     color: #fff;
@@ -182,7 +182,10 @@ btn-room{
 }
 
 .about{
+   padding: 10px;
 }
+.fa-eye,
+.fa-landmark,
 .fa-film,
 .fa-unlock-alt,
 .fa-wifi,
@@ -322,8 +325,30 @@ btn-room{
 }
 
 .parallax-window {
+    min-height: 450px;
+    background: transparent;
+}
 
-    min-height: 700px;
+.card{
+    border-color: unset;
+}
 
+.btn-link{
+    text-decoration: none;
+}
+
+.see-city{
+    background: white;
+}
+
+.parallax-window img{
+    width: 420px;
+    height: 420px;
+    margin: 10px auto 20px;
+    display: block;
+    color: red;
+}
+.parallax-window1{
+    min-height: 150px;
     background: transparent;
 }
