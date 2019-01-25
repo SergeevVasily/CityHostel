@@ -325,7 +325,7 @@ btn-room{
 }
 
 .parallax-window {
-    min-height: 550px;
+    min-height: 490px;
     background: transparent;
 }
 
@@ -339,8 +339,12 @@ btn-room{
 
 .see-city{
     background: white;
+    margin-bottom: 100px;
 }
 
+.city{
+    background: white;
+}
 .parallax-window img{
     width: 420px;
     height: 420px;
@@ -350,5 +354,10 @@ btn-room{
 }
 .parallax-window1{
     min-height: 150px;
+    background: transparent;
+}
+
+.parallax-window-main{
+    min-height: 670px;
     background: transparent;
 }

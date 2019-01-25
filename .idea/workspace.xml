@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c380a022-4469-4f55-8e8e-6202117e509f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -29,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="160" column="90" lean-forward="true" selection-start-line="160" selection-start-column="90" selection-end-line="160" selection-end-column="90" />
+            <state relative-caret-position="357">
+              <caret line="57" column="44" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
               <folding>
                 <element signature="n#style#0;n#h2#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -45,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="325" selection-start-line="325" selection-end-line="325" />
+            <state relative-caret-position="613">
+              <caret line="363" lean-forward="true" selection-start-line="363" selection-end-line="363" />
             </state>
           </provider>
         </entry>
@@ -138,12 +137,12 @@
       <updated>1547754012789</updated>
       <workItem from="1547754015922" duration="124674000" />
       <workItem from="1548281778959" duration="335000" />
-      <workItem from="1548298326485" duration="22518000" />
+      <workItem from="1548298326485" duration="30092000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147527000" />
+    <option name="totallyTimeSpent" value="155101000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -198,17 +197,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/sectional.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="325" selection-start-line="325" selection-end-line="325" />
+        <state relative-caret-position="613">
+          <caret line="363" lean-forward="true" selection-start-line="363" selection-end-line="363" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="160" column="90" lean-forward="true" selection-start-line="160" selection-start-column="90" selection-end-line="160" selection-end-column="90" />
+        <state relative-caret-position="357">
+          <caret line="57" column="44" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
           <folding>
             <element signature="n#style#0;n#h2#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
