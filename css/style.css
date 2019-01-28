@@ -325,7 +325,7 @@ btn-room{
 }
 
 .parallax-window {
-    min-height: 490px;
+    min-height: 510px;
     background: transparent;
 }
 
@@ -339,11 +339,13 @@ btn-room{
 
 .see-city{
     background: white;
-    margin-bottom: 100px;
+
+
 }
 
 .city{
     background: white;
+    margin-top: 25px;
 }
 .parallax-window img{
     width: 420px;
@@ -360,4 +362,49 @@ btn-room{
 .parallax-window-main{
     min-height: 670px;
     background: transparent;
+}
+
+
+.contact{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.city ul li{
+    margin-right: 50px;
+}
+.city ul li img{
+    height: 230px;
+}
+.city h4{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.city ul li p{
+    margin-top: 20px;
+}
+
+.city-title{
+    font-family: 'Roboto-Condensed', sans-serif;
+    color: #000;
+    font-weight: 700;
+}
+
+.BeforeScroll
+{
+    height: 100px; /*Whatever you want*/
+    width: 100%; /*Whatever you want*/
+.
+.
+display: none;
+}
+
+.AfterScroll
+{
+    height: 100px; /*Whatever you want*/
+    width: 100%; /*Whatever you want*/
+.
+.
+display: block;
 }
